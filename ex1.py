@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
 print "hello world hello again I like typing this. This is fun. Yay! Printing I'd much rather you 'not'. I said do not touch this." 
-print " "
-#æˆ‘è®¤ä¸ºè¿™æ˜¯æ³¨é‡Š
+print " Ü³£¬ÕâÃ´µõ"
+#ÎÒÈÏÎªÕâÊÇ×¢ÊÍ
+
