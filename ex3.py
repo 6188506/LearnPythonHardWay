@@ -7,4 +7,4 @@ print u"I could have code like this.这是中国吗？" #and the comment after i
 # print "this won't run"
 
 print u"这个很重要呦. "
-
+我怎么知道输入法不跟随是什么
