@@ -30,6 +30,9 @@ __ex8.py__
 **ex11.py**
 
 + 引入**raw_input()**函数
++ input() 本质上还是使用 raw_input() 来实现的，只是调用完 raw_input() 之后再调用 eval() 函数，所以，你甚至可以将表达式作为 input() 的参数，并且它会计算表达式的值并返回它。
+不过在 Built-in Functions 里有一句话是这样写的：Consider using the raw_input() function for general input from users.
+除非对 input() 有特别需要，否则一般情况下我们都是推荐使用 raw_input() 来与用户交互。
 
 **ex12.py**
 
@@ -38,6 +41,8 @@ __ex8.py__
 例如	`D:\>python -m pydoc -p 1234 #比如说: 端口为1234`
 	`pydoc server ready at http://localhost:1234/`
 	`pydoc server stopped`
+pydoc 是把 help 的内容转成 HTML 输出。
+两者内容都来自 python 模块中的 docstring
 
 **ex13.py**
 

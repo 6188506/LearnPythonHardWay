@@ -1,4 +1,4 @@
-print "How old are you?",
+print "How old are you?"
 age = raw_input()
 print "How tall are you?",
 height = raw_input()
