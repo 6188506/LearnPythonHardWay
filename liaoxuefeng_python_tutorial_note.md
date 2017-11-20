@@ -109,6 +109,7 @@
      + 类似_xxx和__xxx这样的函数或变量就是非公开的（private），不应该被直接引用，比如_abc，__abc等；
      + 外部不需要引用的函数全部定义成private，只有外部需要引用的函数才定义为public。（这也是一种非常有用的代码封装和抽象的方法）
      + **安装第三方模块**在Python中，安装第三方模块，是通过setuptools这个工具完成的。Python有两个封装了setuptools的包管理工具：easy_install和pip。目前官方推荐使用pip。
+     +  **现在安装的版本已经落后了，用python -m pip install --upgrade pip 进行更新pip**
      + **使用\__future__** 比如2.x里的字符串用'xxx'表示str，Unicode字符串用u'xxx'表示unicode，而在3.x中，所有字符串都被视为unicode，因此，写u'xxx'和'xxx'是完全一致的，而在2.x中以'xxx'表示的str就必须写成b'xxx'，以此表示“二进制字符串”。
      + Python提供了\__future__模块，把下一个新版本的特性导入到当前版本，于是我们就可以在当前版本中测试一些新版本的特性。
    +  **面向对象编程**
