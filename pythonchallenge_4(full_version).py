@@ -6,7 +6,6 @@ import re
 number = 12345
 
 for i in range(400):
-	num_str = ''
 	url = 'http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=%d'%number
 	
 	if i == 85:
