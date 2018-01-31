@@ -12,3 +12,11 @@ def anagrams(word, words):
                 else: 
                     break
     return result
+	
+	
+####最佳解1
+def anagrams(word, words): 
+return [item for item in words if sorted(item)==sorted(word)]	
+####最佳解2
+def anagrams(word, words):
+    return filter(lambda x: sorted(word) == sorted(x), words)
