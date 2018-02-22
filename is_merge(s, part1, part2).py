@@ -1,3 +1,5 @@
+import math
+
 def is_merge(s, part1, part2):
     part1_index = [s.index(i) for i in  part1  if i in s]
     part2_index = [s.index(i) for i in  part2  if i in s]
@@ -5,3 +7,5 @@ def is_merge(s, part1, part2):
         return True
     else:
         return False
+
+is_merge()
