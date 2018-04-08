@@ -1,9 +1,9 @@
- def factorial(n):
+def factorial(n):
     space = ' ' * (4 * n)
     print(space, 'factorial', n)
     if n == 0:
         print(space, 'returning 1')
-        return 1
+        return 10
     else:
         recurse = factorial(n - 1)
         result = n * recurse
@@ -11,4 +11,4 @@
         return result
 
 
-factorial(3)
+factorial(4)
